@@ -5,9 +5,9 @@ const HowToStart = ({ data }) => {
 
   const getUrl = (num) => {
     if (num === 1) {
-      return "https://raydium.io/swap/?inputMint=sol&outputMint=GpZBDLuQeDMoCgoQTxw24J3HTnqdLQAkgmoJ6SYqfq9k";
+      return "https://raydium.io/swap/?inputMint=sol&outputMint=GtdRE6raobd5BnN9rq8sUNdoXTpoP6zFaiRCNijRpump";
     } else if (num === 2) {
-      return "https://pump.fun/coin/D13VkjDiCxtgRJsH4s1VCxKS4bFZq5UEz2iRsSbapump?coins_sort=market_cap";
+      return "https://pump.fun/coin/GtdRE6raobd5BnN9rq8sUNdoXTpoP6zFaiRCNijRpump?coins_sort=market_cap";
     }
     return "#"; // Varsayılan (bir bağlantı verilmemişse)
   };
