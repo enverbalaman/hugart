@@ -257,7 +257,7 @@ const SecHeroSection = ({
                 <p className="w-text">{textDown}</p>
                 <div className="dream-btn-group" data-wow-delay="0.4s">
 
-                  <a href="https://ape.pro/solana/D13VkjDiCxtgRJsH4s1VCxKS4bFZq5UEz2iRsSbapump" className="btn more-btn" target="_blank" rel="noopener noreferrer">
+                  <a href="https://pump.fun/coin/GtdRE6raobd5BnN9rq8sUNdoXTpoP6zFaiRCNijRpump?coins_sort=market_cap" className="btn more-btn" target="_blank" rel="noopener noreferrer">
                     {link2}
                   </a>
                 </div>
