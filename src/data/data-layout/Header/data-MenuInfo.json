@@ -1,0 +1,22 @@
+[
+	{
+		"path":"#art",
+		"nameLink":"Art"
+	},
+	{
+		"path":"#about",
+		"nameLink":"About Us"
+	},
+	{
+		"path":"#roadmap",
+		"nameLink":"Roadmap"
+	},
+	{
+		"path":"#tokenomics",
+		"nameLink":"Tokenomics"
+	},
+	{
+		"path":"#howtobuy",
+		"nameLink":"How to Buy"
+	}
+]

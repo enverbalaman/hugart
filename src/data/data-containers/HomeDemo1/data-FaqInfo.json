@@ -1,0 +1,22 @@
+[
+    {
+        "title":"What are the objectives of this Token?",
+        "ID":"Text1",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?"
+    },
+    {
+        "title":"What is the best features and services we deiver?",
+        "ID":"Text2",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?"
+    },
+    {
+        "title":"Why this ICO important to me?",
+        "ID":"Text3",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?"
+    },
+    {
+        "title":"how may I take part in and purchase this Token?",
+        "ID":"Text4",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?"
+    }
+]

@@ -1,0 +1,106 @@
+.gallery-container {
+    padding: 2rem;
+    background-color: transparent;
+    min-height: 100vh;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-back {
+    background: linear-gradient(145deg, #272624, #000000);
+
+}
+
+.media-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.media-card:hover {
+    transform: translateY(-5px);
+}
+
+.media-wrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.dark-background .media-wrapper {
+    background-color: #000000;
+}
+
+.media-content {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.media-title {
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(145deg, #ffa500, #ffd700);
+}
+
+.media-title h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Video kartı için özel stil */
+.media-card.video-card {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.media-card.video-card .media-wrapper {
+    height: 100%;
+}
+
+/* Responsive tasarım için medya sorguları */
+@media (max-width: 1200px) {
+    .media-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .media-card.video-card {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Art yazısı için güncellenen stil */
+.media-art {
+    left: 50%;
+    /* Yatay ortalama */
+    transform: translate(-50%, -50%);
+    /* Tam ortalama için */
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    /* Yazı boyutunu biraz büyüttüm */
+
+    text-align: center;
+}

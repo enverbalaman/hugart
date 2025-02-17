@@ -1,0 +1,19 @@
+[
+    {
+        "Num":"four",
+        "title":"Token Initial Cap",
+        "text":"$5500"
+    },
+    
+    {
+        "Num":"one",
+        "title":"Total Supply",
+        "text":"1.000.000.000"
+    },
+    {
+        "Num":"seven",
+        "title":"Sold Tokens",
+        "text":"-",
+        "isLast":true
+    }
+]

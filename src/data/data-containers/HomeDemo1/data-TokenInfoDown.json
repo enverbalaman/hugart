@@ -1,0 +1,28 @@
+[
+    {
+        "Num":"four",
+        "title":"Token Soft cap",
+        "text":"$18.000.000"
+    },
+    {
+        "Num":"six",
+        "title":"Token Hard Cap",
+        "text":"$78.000.000"
+    },
+    {
+        "Num":"one",
+        "title":"Total Supply",
+        "text":"250.000.000 Token"
+    },
+    {
+        "Num":"two",
+        "title":"Sold Tokens",
+        "text":"49,828,000 Token"
+    },
+    {
+        "Num":"seven",
+        "title":"Remaining Tokens",
+        "text":"200,182,000 Token",
+        "isLast":true
+    }
+]
